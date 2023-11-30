@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Lato;
+}
+.container-fluid img {
+  width: 100%;
+  height: 100%;
+}
+.nav-link {
+  color: white !important;
+  font-weight: 900;
+}
+button {
+  width: 60px;
+  background-color: inherit;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.text {
+  left: 3%;
+  top: 43%;
+}
+span {
+  font-size: 50px;
+}
+.btn {
+  border: 2px solid gray;
+}
+
+@media (max-width: 575px) {
+  .text {
+    padding: 10px;
+  }
+}
+@media (min-width: 576px) and(max-width:767px) {
+  .card {
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and(max-width:991px) {
+  .card {
+    width: 300px;
+    justify-content: center;
+  }
+}
+@media (min-width: 992px) and(max-width:1199px) {
+}
+@media (min-width: 1200px) {
+}
